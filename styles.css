@@ -1,0 +1,107 @@
+body {
+	width: 100%;
+	max-width: 1024px;
+	margin: auto;
+	background-color: #111122;
+}
+
+header, main, footer {
+	background-color: #115588;
+}
+
+main {
+
+}
+
+a:link {
+	color:#22bbee;
+	text-decoration: none;
+}
+
+a:visited {
+	color:#22bbee;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+nav {
+	padding: 10px;
+	padding-right: 0%;
+	padding-left: 0%;
+	text-align: center;
+}
+ul {
+}
+
+li {
+	width: 10%;
+	display: inline-block;
+	padding-right: 3%;
+	padding-left: 3%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: #113344;
+	margin: auto;
+}
+
+h1 {
+	padding: 5px;
+	padding-bottom: 10px;
+	padding-top:10px;
+	font-size: 26pt;
+	text-align: center;
+}
+
+h2 {
+	color: #ddcc00;
+	text-align: center;
+	padding: 20px;
+	font-size: 22pt;
+}
+
+img {
+	width: 100%;
+	margin: 0 auto;
+	max-width: 1024px;
+	max-height: 768px;
+}
+
+p {
+	padding: 15px;
+	padding-top: 15px;
+	padding-bottom: 25px;
+	font-size: 110%;
+}
+
+.imgSquare {
+	display: block;
+	width: 384px;
+	height: 384px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+figure {
+	text-align: center;
+	font-style: italic;
+	font-size: 105%;
+}
+
+#mySQLImg {
+	max-width: 560px;
+	max-height: auto;
+	padding-right: 10%;
+	padding-left: 10%;
+}
+
+#javaImg {
+	max-width: 512px;
+	max-height: 384px;
+}
+
+footer {
+	font-size: 75%;
+}
