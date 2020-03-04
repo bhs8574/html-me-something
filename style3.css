@@ -1,0 +1,227 @@
+body {
+	width: 100%;
+	max-width: 1024px;
+	margin: auto;
+	background-color: #444466;
+	background-image: repeating-linear-gradient(45deg, #00ffff, 
+		#f00fff, #ff00ff, 
+		#fff00f, #ffff00, #0ffff0);
+
+}
+
+header, main, footer {
+	background-color: #00FFFF;
+}
+
+header {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	max-width: 1024px;
+	height: auto;
+	max-height: 100px;
+	margin-bottom: 10px;
+	background-color: #00ff00;
+	animation-name: headerbackground;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes headerbackground {
+	0% {background-color: #00ff00;}
+	25% {background-color: #f00fff;}
+	50% {background-color: #00ffff;}
+	75% {background-color: #ffff00;}
+	100% {background-color: #00ff00;}
+}
+
+main {
+	margin-top: 100px;
+
+}
+
+a::before {
+	display: block; 
+  	content: " ";
+	margin-top: -100px;
+	height: 100px;
+	visibility: hidden;
+	pointer-events: none;
+}
+
+a:link {
+	color: black;
+	text-decoration: none;
+}
+
+a:visited {
+	color: black;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+nav {
+	padding: 10px;
+	padding-right: 0%;
+	padding-left: 0%;
+	text-align: center;
+}
+ul {
+	font-size: 100%;
+}
+
+li {
+	width: 10%;
+	display: inline-block;
+	padding-right: 3%;
+	padding-left: 3%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	background-color: black;
+	background-image: radial-gradient(circle, #00ffff, #f00fff, 
+		#ff00ff, #fff00f, 
+		#ffff00, #0ffff0);
+	margin: auto;
+}
+
+
+h1 {
+	padding: 5px;
+	padding-bottom: 10px;
+	padding-top:10px;
+	padding-left: 10px;
+	font-size: 200%;
+	text-align: left;
+	color: #000000;
+}
+
+h2 {
+	color: #000000;
+	text-align: center;
+	padding: 20px;
+	padding-top: 40px;
+	font-size: 180%;
+}
+
+img {
+	width: 100%;
+	margin: 0 auto;
+	max-width: 1024px;
+	max-height: 768px;
+}
+
+p {
+	padding: 15px;
+	padding-top: 15px;
+	padding-bottom: 25px;
+	font-size: 110%;
+	color: #000000;
+}
+
+.imgSquare {
+	display: block;
+	width: 384px;
+	height: 384px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+figure {
+	text-align: center;
+	font-style: italic;
+	font-size: 90%;
+	color: #000000;
+}
+
+figure a:visited {
+	color: #0000aa;
+}
+
+footer {
+	font-size: 75%;
+}
+
+.dropbtn {
+	background-color: #333333;
+	color: #cccccc;
+	border: none;
+	cursor: pointer;
+	padding: 3px;
+	padding-right: 20px;
+	padding-left: 20px;
+	background-image: linear-gradient(#aaaaaa, black, #aaaaaa);
+}
+
+.dropbtn:hover, .dropbtn:focus {
+	background-color: #2980B9;
+}
+
+.dropdown {
+	position: absolute;
+	right:30px;
+	top:5px;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f1f1f1;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+	right:0;
+}
+
+.dropdown-content div {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+.dropdown-content div:hover {
+	background-color: #dddddd
+}
+
+.show{
+	display: block;
+}
+
+#mySQLImg {
+	max-width: 560px;
+	max-height: auto;
+	padding-right: 10%;
+	padding-left: 10%;
+}
+
+#javaImg {
+	max-width: 512px;
+	max-height: 384px;
+}
+
+#topLine {
+	display: inline-block;
+}
+
+#blues {
+	color: silver;
+	background-color: #002f87;
+	background-image: linear-gradient(90deg, #002f87, #ffb81c);
+}
+
+#nineties {
+	color: #222222;
+	background-color: #0055ff;
+	background-image: linear-gradient(45deg, #00ffff, #f00fff, #ff00ff, #fff00f, #ffff00, #0ffff0);
+}
+
+#blues:hover {
+	background-image: linear-gradient(90deg, #001e76, #eea70b);
+}
+
+#nineties:hover {
+	background-image: linear-gradient(45deg, #00eeee, #e00eee, #ee00ee, #eee00e, #eeee00, #0eeee0);
+}
